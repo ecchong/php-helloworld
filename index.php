@@ -7,6 +7,6 @@
     ?>
   <p>Environment variable "my-message":
     <?php
-    echo $_ENV['my-message']
+    echo $_ENV['greeting'];
       ?>
 </html>
