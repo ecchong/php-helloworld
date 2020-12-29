@@ -5,7 +5,7 @@
     echo $_SERVER['SERVER_ADDR'];
     echo "<p>The time is " . date("h:i:sa");
     ?>
-  <p>Environment variable "my-message":
+  <p>Environment variable "greeting":
     <?php
     echo $_ENV['greeting'];
       ?>
